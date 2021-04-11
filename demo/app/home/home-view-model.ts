@@ -1,4 +1,4 @@
-import { Observable } from "tns-core-modules/data/observable";
+import { Observable } from '@nativescript/core';
 import {DbBuilder, IDatabase, DbCreationOptions} from 'nativescript-sqlite-access';
 import { databaseName, creationTableQueries, dropTableQueries, databaseTables } from "../db-setting";
 
