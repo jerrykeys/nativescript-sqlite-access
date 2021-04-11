@@ -8,26 +8,13 @@
         "noEmitHelpers": true,
         "noEmitOnError": true,
         "skipLibCheck": true,
-        "lib": [
-            "es2017",
-            "dom"
-        ],
+        "lib": ["es2017", "dom"],
         "baseUrl": ".",
         "paths": {
-            "~/*": [
-                "app/*"
-            ],
-            "@/*": [
-                "app/*"
-            ]
-        },
-        "removeComments": false
+            "~/*": ["app/*"],
+            "@/*": ["app/*"]
+        }
     },
-    "files": [
-        "./references.d.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "platforms"
-    ]
+    "files": ["./references.d.ts"],
+    "exclude": ["node_modules", "platforms"]
 }

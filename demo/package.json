@@ -1,5 +1,6 @@
 {
   "name": "nativescript-sqlite-access-demo",
+  "main": "./app/app.ts",
   "version": "8.0.5",
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
@@ -23,7 +24,9 @@
     "@nativescript/theme": "~3.0.1"
   },
   "devDependencies": {
+    "@nativescript/ios": "8.0.0",
     "@nativescript/types": "~8.0.0",
+    "@nativescript/webpack": "beta",
     "@types/karma-chai": "^0.1.2",
     "@types/mocha": "8.2.2",
     "chai": "4.3.4",
@@ -37,6 +40,5 @@
     "typescript": "~4.0.0"
   },
   "gitHead": "803cec054c44c99eaa59cdc267993e6346f6cb3a",
-  "readme": "NativeScript Application",
-  "main": "./app/app.ts"
+  "readme": "NativeScript Application"
 }
