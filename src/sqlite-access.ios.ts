@@ -1,4 +1,4 @@
-import * as fs from "tns-core-modules/file-system";
+import * as fs from '@nativescript/core/file-system';
 import { DbCreationOptions, ReturnType, IDatabase, parseToDbValue, parseToJsValue, ExtendedPromise } from './sqlite-access.common';
 
 // Super private variables

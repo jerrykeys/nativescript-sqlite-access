@@ -1,14 +1,15 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
+        "target": "es2017",
+        "module": "esnext",
+        "moduleResolution": "node",
         "declaration": true,
         "removeComments": true,
         "noLib": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "lib": ["es6", "dom"],
+        "lib": ["es2017", "dom"],
         "sourceMap": true,
         "pretty": true,
         "allowUnreachableCode": false,
@@ -20,6 +21,7 @@
         "noImplicitUseStrict": false,
         "noFallthroughCasesInSwitch": true
     },
+    "include": ["src/**/*.android.ts", "src/**/*.ios.ts"],
     "exclude": [
         "node_modules"
     ],
