@@ -21,7 +21,6 @@
         "noImplicitUseStrict": false,
         "noFallthroughCasesInSwitch": true
     },
-    "include": ["src/**/*.android.ts", "src/**/*.ios.ts"],
     "exclude": [
         "node_modules"
     ],
